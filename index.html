@@ -455,10 +455,74 @@
             </li>
           </ul>
         </div>
+        <div class="footer-element">
+          <form class="subscribe-form" action="">
+            <p class="call-to-action">Subscribe</p>
+            <div class="subscribe-form-elements-container">
+              <input type="email" name="email" placeholder="E-mail" />
+              <button class="subscribe-btn" type="submit">Subscribe</button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
-    <div class="overlay is-hidden" data-modal>
+    <div class="overlay s-hidden" data-modal>
       <div class="modal">
+        <form action="" class="contacts-form">
+          <b>Leave your contacts and we will call you back</b>
+          <div class="input-field">
+            <label for="contacts-form-name">Name</label>
+
+            <div class="input-wrapper">
+              <input id="contacts-form-name"" type="text" />
+              <svg width="18px" height="18px">
+                <use href="/images/icons.svg#modal-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="input-field">
+            <label for="contacts-form-phone">Phone</label>
+            <div class="input-wrapper">
+              <input id="contacts-form-phone"" type="text" />
+              <svg width="18px" height="18px">
+                <use href="/images/icons.svg#modal-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="input-field">
+            <label for="contacts-form-email">Email</label>
+
+            <div class="input-wrapper">
+              <input id="contacts-form-email"" type="text" />
+              <svg width="18px" height="18px">
+                <use href="/images/icons.svg#modal-email"></use>
+              </svg>
+            </div>
+          </div>
+          <label for="comments">Comment</label>
+          <textarea
+            name="comments"
+            id="comments"
+            placeholder="Text input"
+          ></textarea>
+
+          <label class="accept-checkbox-field">
+            <input
+              class="privacy-policy-checkbox visually-hidden"
+              type="checkbox"
+            />
+            <svg width="16px" height="16px">
+              <use href="./images/icons.svg#checkbox"></use>
+            </svg>
+            <p class="acceptence-policy-text">
+              I accept the terms and conditions of the
+              <a class="privacy-policy" href="">Privacy Policy</a>
+            </p>
+          </label>
+          <div class="contacts-form-button-field">
+            <button class="contacts-form-send-btn" type="submit">Send</button>
+          </div>
+        </form>
         <button class="close-btn" type="button" data-modal-close>
           <svg width="8px" height="8px">
             <use href="./images/icons.svg#close"></use>
