@@ -587,8 +587,10 @@ footer {
   border: 1.25px solid var(--main-title-color);
   border-radius: 2px;
   fill: transparent;
+
   transition: border-color 250ms var(--transition-func);
 }
+
 .privacy-policy-checkbox:checked + svg {
   border-color: var(--hover-color);
   fill: var(--hover-color);
